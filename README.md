@@ -3,13 +3,15 @@ E-commerce de muebles para el hogar
 Aplicación web desarrollada como proyecto integrador utilizando Node.js, Express y MySQL.  
 El sistema permite visualizar un catálogo de productos, registrarse como usuario, autenticarse y gestionar productos a través de un panel administrador.
 
-El objetivo del proyecto fue construir una aplicación web completa aplicando arquitectura MVC, autenticación de usuarios y conexión a una base de datos relacional.
+El objetivo del proyecto fue contruir una aplicación web completa aplicando arquitectura MVC, autenticación de usuarios y conexión a una base de datos relacional.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Demo online
 
 Podés ver el proyecto funcionando aquí:
 
 https://proyectointegradorg10-pmtu.onrender.com
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Tecnologías utilizadas:
 - Node.js
