@@ -1,18 +1,50 @@
-# ProyectoIntegrador
+E-commerce de muebles para el hogar
 
-Tematica: Venta de muebles 
+Aplicación web desarrollada como proyecto integrador utilizando Node.js, Express y MySQL.  
+El sistema permite visualizar un catálogo de productos, registrarse como usuario, autenticarse y gestionar productos a través de un panel administrador.
 
-Descripción: Es un sitio web argentino dedicado a la comercialización de muebles para el hogar, Iniciamos nuestro camino con el propósito de mejorar la calidad de vida en los hogares de cada uno de nuestros clientes, buscando siempre un diseño único y personalizado que se trasladen a distintos rincones del país.
+El objetivo del proyecto fue construir una aplicación web completa aplicando arquitectura MVC, autenticación de usuarios y conexión a una base de datos relacional.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Demo online
 
-Publico Objetivo: "Esta dirigido a cualquier persona que quiera decorar su casa de una forma única y diferente" 
+Podés ver el proyecto funcionando aquí:
 
-Integrantes del grupo:
+https://proyectointegradorg10-pmtu.onrender.com
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tecnologías utilizadas:
+- Node.js
+- Express.js
+- MySQL
+- Sequelize ORM
+- EJS
+- JavaScript
+- CSS
+- bcrypt (autenticación segura)
+- express-session
+- Render (deploy backend)
+- AlwaysData (base de datos remota)
+- GitHub (control de versiones)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Funcionalidades:
+- Registro de usuarios
+- Login con autenticación segura utilizando **bcrypt**
+- Validación de email único en registro
+- Validación de contraseña mínima
+- Catálogo de productos
+- Productos destacados
+- Panel de administración
+- CRUD de productos
+- Gestión de usuarios
+- Roles de usuario (común / administrador / superadministrador)
+- Base de datos relacional utilizando MySQL + Sequelize
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Arquitectura del proyecto:
+- Frontend: EJS + CSS
+- Backend: Node.js + Express
+- ORM: Sequelize
+- Base de datos: MySQL (AlwaysData)
+- Deploy: Render
+- Control de versiones: GitHub
 
-Soy Facu Saporiti, tengo 30 años. Vivo en Adrogue - Buenos Aires - Zona Sur. Soy papa de Cayetana Saporiti, empleado del Banco Nacion. En mis ratos libres me gusta estar en familia y con amigos. Soy hincha de Racing y muy a menudo voy al Cilindro a verlo.
 
-Soy Santiago Hernández, tengo 26 años. Vivo en Caballito, Capital Federal. Trabajo en el área de ventas de una empresa dedicada a la venta minorista y mayorista de seguridad industrial. Tengo 26 años, en mis ratos libres me gusta jugar al fútbol con amigos y ver series en Netflix.
-
-Soy Ezequiel Scoffoni, tengo 24 años. Vivo en Parque Avellaneda, Capital Federal. Actualmente trabajo como asesor financiero en un Banco. En mis tiempos libres me gusta juntarme/salir con amigos y familia.
-
-links referentes 
- https://www.holacasa.com.ar/  https://www.thefutureperfect.com/ https://plinioilgiovane.com/ https://www.variopinte.com/
+ 
