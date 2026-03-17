@@ -6,9 +6,11 @@ const apiProductsController = require('../../controllers/api/apiProductsControll
 //Todos los Productos
 router.get('/', apiProductsController.index);
 
+//Productos Vendidos
+router.get('/vendidos', apiProductsController.vender);
+
 //Detalle 
 router.get('/:id', apiProductsController.detail);
-
 
 
 module.exports = router

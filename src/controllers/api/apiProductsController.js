@@ -31,20 +31,20 @@ detail: async function(req, res){
         };        
     },
 
-// vender: async function(req, res){
+vender: async function(req, res){
 
-//     const products = await db.producto.findAll({where: {borrado: true}})
-//         if (products.length > 0){
-//             let resultado = {
-//                 metadata: {
-//                     status: 200,
-//                     quantity: products.length
-//                 },
-//                 data: {products}
-//             }
-//                 res.json(resultado)
-//         } 
-//     },
+    const products = await db.producto.findAll({where: {borrado: true}})
+        if (products.length > 0){
+            let resultado = {
+                metadata: {
+                    status: 200,
+                    quantity: products.length
+                },
+                data: {products}
+            }
+                res.json(resultado)
+        } 
+    },
 
 
 }
