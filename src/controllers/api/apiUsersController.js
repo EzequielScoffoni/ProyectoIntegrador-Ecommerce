@@ -19,7 +19,7 @@ vender: async function(req, res){
 
 total: async function(req, res){
 
-    const users = await db.usuario.findAll({where: {rol: "comun"}})
+    const users = await db.usuario.findAll()
         if (users.length > 0){
             let resultado = {
                 metadata: {
