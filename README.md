@@ -1,4 +1,4 @@
-E-commerce de muebles para el hogar
+E-commerce de muebles para el hogar - DDecoHouse
 
 Aplicación web desarrollada como proyecto integrador utilizando Node.js, Express y MySQL.  
 El sistema permite visualizar un catálogo de productos, registrarse como usuario, autenticarse y gestionar productos a través de un panel administrador.
